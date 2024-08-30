@@ -26,7 +26,7 @@ import test_Components.BaseTest;
 
 public class StandaloneTest extends BaseTest 
 {
-	 //zara coat 3 is product Name
+	 //zara coat 3 is Product Name
 	String productName="ZARA COAT 3";
 	
 @Test(retryAnalyzer = test_Components.Retry.class)	
