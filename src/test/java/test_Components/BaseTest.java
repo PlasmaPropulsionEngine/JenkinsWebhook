@@ -39,7 +39,7 @@ public LoginPage loginPage;
 	
 public WebDriver initilizationWebDriver() throws IOException
 {
-	
+	//Properties class is used to get global data from .properites files
 	Properties pro=new Properties();
 	
 	FileInputStream fin=new FileInputStream(System.getProperty("user.dir")+"//src//main//java//resources//globalData.properties");
