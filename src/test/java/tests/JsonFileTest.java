@@ -18,7 +18,7 @@ import test_Components.BaseTest;
 public class JsonFileTest extends BaseTest
 {
 
-	
+	//product name
 	String productName="ZARA COAT 3";
 	
 	@Test(dataProvider = "dataset")	
